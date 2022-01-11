@@ -1,10 +1,9 @@
 import React from "react";
-import { default as LoaderType } from "react-loader-spinner";
 
 const Loader = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <LoaderType type="BallTriangle" color="#00BFFF" height={200} width={200} />
+    <div className="py-3 w-full flex items-center justify-center">
+      <div className="animate-spin rounded-full w-32 h-32 border-2 border-b-0 border-red-800" />
     </div>
   );
 };
